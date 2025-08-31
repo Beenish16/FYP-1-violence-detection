@@ -28,7 +28,15 @@ information about a scene of interest.
 
 # How to Run
 
-First install requirements:
+Add uv to your system:
+
+`powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+
+Check uv installed or not:
+
+`uv --version`
+
+First install requirements for this project:
 
 `uv sync`
 
