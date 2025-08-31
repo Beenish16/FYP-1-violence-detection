@@ -36,6 +36,10 @@ Check uv installed or not:
 
 `uv --version`
 
+Clone this repo:
+
+`git clone https://github.com/Beenish16/FYP-1-violence-detection.git`
+
 First install requirements for this project:
 
 `uv sync`
