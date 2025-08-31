@@ -7,7 +7,7 @@
 [Resutls](#results)
 
 [Further Work](#work)
-<a name="introduction"/>
+<a name="introduction"></a>
 
 # Introduction
 
@@ -24,18 +24,22 @@ variety of data. The task for the model at training was to predict similar
 vectors for image and text that describes well a scene on the image. Thus model
 can generalize well on other scenarios too if you provide proper textual
 information about a scene of interest.
-<a name="howtorun"/>
+<a name="howtorun"></a>
 
 # How to Run
 
 First install requirements:
-`pip install -r requirements.txt`
 
-To test the model you can either run:
-`python run.py --image-path ./data/7.jpg`
+`uv sync`
 
-Or you can test it through web app:
-`streamlit run app.py`
+Create virtual environment:
+
+`uv venv`
+
+Run the app:
+
+`uv run streamlit run app.py`
+
 
 Or you can see the example code in `tutorial.ipynb` jupyter notebook
 
